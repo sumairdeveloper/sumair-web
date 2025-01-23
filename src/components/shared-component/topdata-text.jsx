@@ -1,5 +1,5 @@
 import React from 'react'
-import './share-component.css'
+import './shared-component.css'
 
 const TopDataText = (props) => {
     return (
