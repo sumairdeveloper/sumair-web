@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
-import { FaLocationArrow, FaRegMoon } from 'react-icons/fa'
+import { FaLocationArrow, FaRegMoon, FaRegSun } from 'react-icons/fa'
 
 const Header = () => {
+
+    const [darkTheme, setDarkTheme] = useState("light")
+
+
+    const handleThemeChange = () => {
+        console.log("BUTTON IS CLICEKD")
+        const theme = darkTheme === "light" ? "dark" : "light"
+        setDarkTheme(theme)
+
+        document.documentElement.setAttribute("data-theme", theme)
+
+    }
+
 
 
     const headerListItems = [
@@ -33,7 +46,7 @@ const Header = () => {
         <header className='header'>
 
             <div className='header-logo'>
-                <h1>Sumair</h1>
+                <h1>Tauseeq</h1>
                 <span className='name-dot'></span>
             </div>
 
@@ -49,7 +62,12 @@ const Header = () => {
 
 
             <div className='header-buttons'>
-                <FaRegMoon size={28 } />
+                <button onClick={handleThemeChange}>
+
+                    {darkTheme === "light" ? <FaRegMoon size={28} /> : <FaRegSun size={28} />}
+
+
+                </button>
                 <button className='contact-button'>
                     Contact
                     <FaLocationArrow />

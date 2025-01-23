@@ -1,9 +1,9 @@
 import React from 'react'
-import './shared-component.css'
+import './share-component.css'
 
 const TopDataText = (props) => {
     return (
-        <div>
+        <div className='top-data-text'>
             <span>{props.topText}</span>
 
             <h1>{props.headingText}</h1>
