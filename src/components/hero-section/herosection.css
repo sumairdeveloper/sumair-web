@@ -34,6 +34,13 @@
     font-size: 2rem;
     font-weight: 300;
 
+
+}
+
+.hero-section-top-text,
+.hero-section-middle-heading,
+.hero-section-middle-desc {
+    color: var(--text-color);
 }
 
 .hero-section-middle {
@@ -72,15 +79,19 @@
     border: 1px solid black;
     border-radius: 3rem;
     font-size: 1rem;
-    cursor: pointer;
+    cursor: pointer;    background-color: var(--background-color);
+    border-color: var(--border-color);
+    color: var(--color);
 }
 
 
-.hero-section-bottom-buttons:hover {
+ /* .hero-section-bottom-buttons:hover {
     background-color: rgb(12, 12, 12);
     color: whitesmoke;
-    transition: 0.5s all ease;
-}
+    transition: 0.5s all ease; 
+    background-color: var(--background-color);
+    color: var(--color);
+} */
 
 .waving-hand {
     display: inline-block;
@@ -93,22 +104,27 @@
 
 @keyframes smoothWave {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
-
-    25% {
-        transform: rotate(15deg);
+    10% {
+        transform: rotate(14deg);
     }
-
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
     50% {
-        transform: rotate(0deg);
+        transform: rotate(10deg);
     }
-
-    75% {
-        transform: rotate(-15deg);
+    60% {
+        transform: rotate(0);
     }
-
     100% {
-        transform: rotate(0deg);
+        transform: rotate(0);
     }
 }

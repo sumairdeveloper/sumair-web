@@ -5,8 +5,10 @@ import Card from '../shared-component/shared-component'
 import { BiCodeAlt } from 'react-icons/bi'
 import { CgCodeSlash } from 'react-icons/cg'
 import { VscVscode } from 'react-icons/vsc'
-import { IoGitMerge, IoLogoFigma, IoLogoFirebase } from 'react-icons/io5'
+import { IoGitMerge, IoLanguageSharp, IoLogoFigma, IoLogoFirebase } from 'react-icons/io5'
 import { DiMongodb } from 'react-icons/di'
+import { FaGraduationCap } from 'react-icons/fa'
+import { GoProject } from 'react-icons/go'
 
 const AboutMe = () => {
 
@@ -14,17 +16,17 @@ const AboutMe = () => {
         {
             cardheading: "Languages",
             carddesc: "HTML5, CSS3, JS, REACTJS",
-            cardicon: <CgCodeSlash />
+            cardicon: <IoLanguageSharp size={28} />
         },
         {
             cardheading: "Education",
             carddesc: "BSCS from ABC UNI, Master",
-            cardicon: <CgCodeSlash />
+            cardicon: <FaGraduationCap size={28}/>
         },
         {
             cardheading: "Projects",
             carddesc: "Build portfolio website.",
-            cardicon: <CgCodeSlash />
+            cardicon: <GoProject size={28} />
         }
     ]
 
@@ -37,7 +39,7 @@ const AboutMe = () => {
 
     ]
     return (
-        <div className='about-me'>
+        <div className='about-me' id='aboutme'>
             <div className='about-me-top'>
                 <span>Introduction</span>
                 <h1>About Me</h1>

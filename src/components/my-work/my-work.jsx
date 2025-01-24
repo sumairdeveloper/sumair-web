@@ -1,3 +1,4 @@
+
 import React from 'react'
 import './my-work.css'
 import TopDataText from '../shared-component/topdata-text'
@@ -36,7 +37,8 @@ const MyWork = () => {
         }
     ]
     return (
-        <div>
+        <div className="mywork">
+        <div id='mywork'>
             <div>
                 <TopDataText
                     topText="My portfolio"
@@ -63,7 +65,7 @@ const MyWork = () => {
                 })}
             </div>
 
-        </div>
+        </div></div>
     )
 }
 

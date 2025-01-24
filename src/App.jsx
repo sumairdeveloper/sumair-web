@@ -1,3 +1,4 @@
+
 import React from 'react'
 import Header from './components/header/header'
 import HeroSection from './components/hero-section/herosection'
@@ -5,6 +6,7 @@ import './App.css'
 import AboutMe from './components/aboutme/aboutme'
 import Services from './components/services/services'
 import MyWork from './components/my-work/my-work'
+import Form from './components/form/form'
 
 const App = () => {
   return (
@@ -17,7 +19,7 @@ const App = () => {
         </div>
         <Services />
         <MyWork />
-        
+        <Form />
       </div>
     </div>
   )

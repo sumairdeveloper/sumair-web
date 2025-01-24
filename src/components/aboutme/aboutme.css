@@ -3,7 +3,8 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    height: 85%;
+    height: 65vh;
+    margin-top: 2rem;
 }
 
 .about-me-top {
@@ -19,13 +20,16 @@
     align-items: center;
     gap: 3rem;
     width: 100%;
+    
 }
 
 .about-me-bottom-cards {
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 100%;
+ 
 }
 
 .about-me-bottom-cards-services{
@@ -33,6 +37,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .about-me-bottom-image {
@@ -53,6 +58,7 @@
     border: 1px solid gray;
     border-radius: 0.7rem;
     padding: 0.7rem;
+    
 }
 
 .about-me-bottom-tools-container{
@@ -64,6 +70,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+    
 }
 
 
@@ -73,10 +80,12 @@
     justify-content: space-between;
     align-content: center;
     gap: 1rem;
+    color:var(--color);
 }
 
 
 .about-me-bottom-right > p{
     width: 85%;
     padding-bottom: 2rem;
+    color: var(--color);
 }

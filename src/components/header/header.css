@@ -48,6 +48,7 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
 }
 
 .contact-button {
@@ -55,6 +56,17 @@
     padding: 0.7rem 2rem;
     border: 2px solid black;
     border-radius: 4rem;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+
+}
+
+
+.li-button {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
     color: var(--text-color);
 
 }
