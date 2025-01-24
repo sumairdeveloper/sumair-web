@@ -1,5 +1,5 @@
 import React from 'react'
-import './Services.css'
+import './services.css'
 import TopDataText from '../shared-component/topdata-text'
 import Card from '../shared-component/shared-component'
 import { GiGlobeRing } from 'react-icons/gi'
