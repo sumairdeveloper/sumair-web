@@ -6,10 +6,10 @@ import Card from '../shared-component/shared-component'
 import picture from '../../assets/OIP.jpg'
 import { BsArrowBarRight } from 'react-icons/bs'
 import { CgCodeSlash } from 'react-icons/cg'
-import image1 from '../../assets/OIP.jpg'
-import image2 from '../../assets/OIP.jpg'
-import image3 from '../../assets/OIP.jpg'
-import image4 from '../../assets/OIP.jpg'
+import image1 from '../../assets/web.jpg'
+import image2 from '../../assets/app.jpg'
+import image3 from '../../assets/mob.jpg'
+import image4 from '../../assets/d app.jpg'
 
 const MyWork = () => {
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './aboutme.css'
-import aboutMeImage from '../../assets/OIP.jpg'
+import aboutMeImage from '../../assets/OIP (1).jpg'
 import Card from '../shared-component/shared-component'
 import { BiCodeAlt } from 'react-icons/bi'
 import { CgCodeSlash } from 'react-icons/cg'
