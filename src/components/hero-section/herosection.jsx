@@ -1,5 +1,5 @@
 import React from 'react'
-import './herosection.css'
+import './Herosection.css'
 import { MdWavingHand } from 'react-icons/md'
 import profilePicture from '../../assets/OIP.jpg'
 

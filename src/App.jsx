@@ -1,12 +1,12 @@
 
 import React from 'react'
-import Header from './components/header/header'
-import HeroSection from './components/hero-section/herosection'
+import Header from './components/header/Header'
+import HeroSection from './components/hero-section/Herosection'
 import './App.css'
-import AboutMe from './components/aboutme/aboutme'
-import Services from './components/services/services'
-import MyWork from './components/my-work/my-work'
-import Form from './components/form/form'
+import AboutMe from './components/aboutme/Aboutme'
+import Services from './components/services/Services'
+import MyWork from './components/my-work/My-work'
+import Form from './components/form/Form'
 
 const App = () => {
   return (

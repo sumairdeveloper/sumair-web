@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import './header.css'
+import './Header.css'
 import { FaLocationArrow, FaRegMoon, FaRegSun } from 'react-icons/fa'
 
 const Header = () => {

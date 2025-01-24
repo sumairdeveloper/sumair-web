@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import TopDataText from '../shared-component/topdata-text'
-import './form.css'
+import TopDataText from '../shared-component/Topdata-text'
+import './Form.css'
 const Form = () => {
 
     const [formData, setFormData] = useState({

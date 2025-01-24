@@ -1,8 +1,8 @@
 
 import React from 'react'
-import './my-work.css'
-import TopDataText from '../shared-component/topdata-text'
-import Card from '../shared-component/shared-component'
+import './My-work.css'
+import TopDataText from '../shared-component/Topdata-text'
+import Card from '../shared-component/Shared-component'
 import picture from '../../assets/OIP.jpg'
 import { BsArrowBarRight } from 'react-icons/bs'
 import { CgCodeSlash } from 'react-icons/cg'
