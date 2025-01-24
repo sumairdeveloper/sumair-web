@@ -6,7 +6,7 @@
     border-radius: 8px;
     max-width: 100%;
     margin: auto;
-  
+    background-color: var(--background-color);
     height: 80vh;
   }
   
@@ -76,5 +76,9 @@
     input[type="email"] {
       width: 100%;
     }
+  }
+  
+  .inputs{
+    margin-top: 2rem;
   }
   

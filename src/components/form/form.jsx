@@ -54,7 +54,7 @@ const Form = () => {
 
 
             <form onSubmit={handleOnSubmit}>
-                <div>
+                <div className='inputs'>
                     <input
                         type='text'
                         className=''

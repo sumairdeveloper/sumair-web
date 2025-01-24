@@ -5,7 +5,7 @@
     flex-direction: column;
     width: 100%;
     gap: 3rem;
-    height: calc(100vh - 6.8rem);
+    height: calc(100vh - 7rem);
 }
 
 .hero-section-top {
@@ -57,6 +57,7 @@
     line-height: 3rem;
     font-weight: 600;
     margin-bottom: 20px;
+    transition: all ease .7s;
 }
 
 .hero-section-middle-desc {
@@ -79,19 +80,19 @@
     border: 1px solid black;
     border-radius: 3rem;
     font-size: 1rem;
-    cursor: pointer;    background-color: var(--background-color);
+    cursor: pointer;    
+    background-color: var(--background-color);
     border-color: var(--border-color);
-    color: var(--color);
+    color: var(--text-color);
 }
 
 
- /* .hero-section-bottom-buttons:hover {
-    background-color: rgb(12, 12, 12);
+ .hero-section-bottom-buttons:hover {
+    background-color: rgb(228, 26, 26);
     color: whitesmoke;
-    transition: 0.5s all ease; 
-    background-color: var(--background-color);
-    color: var(--color);
-} */
+    transition: 0.5s all ease;
+    color:var(--text-color); }
+
 
 .waving-hand {
     display: inline-block;

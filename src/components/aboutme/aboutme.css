@@ -12,6 +12,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color:var(--text-color);
+    transition: all ease .7s;
 }
 
 .about-me-bottom {
@@ -29,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    transition: all ease .7s;
  
 }
 
@@ -80,12 +83,12 @@
     justify-content: space-between;
     align-content: center;
     gap: 1rem;
-    color:var(--color);
+    color:var(--text-color);
 }
 
 
 .about-me-bottom-right > p{
     width: 85%;
     padding-bottom: 2rem;
-    color: var(--color);
+    color: var(--text-color);
 }

@@ -72,7 +72,7 @@ const Header = () => {
 
 
             <div className='header-buttons'>
-                <button onClick={handleThemeChange}>
+                <button onClick={handleThemeChange} className='icon'>
 
                     {darkTheme === "light" ? <FaRegMoon size={28} /> : <FaRegSun size={28} />}
 

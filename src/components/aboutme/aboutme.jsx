@@ -73,7 +73,7 @@ const AboutMe = () => {
 
 
 
-                    <span>Toos I use</span>
+                    <span>Tools I use</span>
 
                     <div className='about-me-bottom-tools-container'>
                         {toolsIcons.map((item, index) =>
