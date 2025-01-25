@@ -82,3 +82,21 @@
     height: 100%;
     width: 100%;
 }
+
+@media screen and (max-width: 600px ){
+    .top-data-text{
+        width: 620px;
+        height: 200px;
+    }
+    .card{width: 130px;
+    height: 250px;}
+    .latest-work-image-parent{
+ width: 150px;
+ height: 300px;
+    }
+    .card-latest-work-parent{
+        width: 150px;
+        height: 280px;
+    }
+
+}
