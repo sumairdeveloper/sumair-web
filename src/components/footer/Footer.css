@@ -1,0 +1,47 @@
+/* Footer Styles */
+footer {
+    background-color: #f3f4f6; /* Light gray background */
+    padding: 1.5rem 0; /* Padding for spacing */
+    text-align: center; /* Center align text */
+    background-color: var(--background-color);
+  }
+  
+  footer p {
+    color: #6b7280; /* Subtle gray text color */
+    font-size: 0.875rem; /* Small font size */
+    margin: 0; /* Remove margin */
+  }
+  
+  footer .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between links */
+    margin-top: 1rem; /* Add margin above links */
+  }
+  
+  .logos {
+    color: black; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500; /* Medium font weight */
+    transition: color 0.3s ease; /* Smooth transition for hover */
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    background-color: var(--background-color);
+  }
+
+  .icon{
+    color: var(--text-color);
+  }
+
+  
+.icon :hover {
+    color: #2563eb; /* Darker blue on hover */
+  }
+
+  @media screen and (max-width: 600px ){
+    footer{
+        width: 850px;
+        height: 100px;
+    }
+  }

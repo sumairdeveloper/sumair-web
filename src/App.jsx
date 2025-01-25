@@ -7,7 +7,7 @@ import AboutMe from './components/aboutme/Aboutme'
 import Services from './components/services/Services'
 import MyWork from './components/my-work/My-work'
 import Form from './components/form/Form'
-
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <div>
@@ -21,6 +21,7 @@ const App = () => {
         <MyWork />
         <Form />
       </div>
+      <Footer />
     </div>
   )
 }
