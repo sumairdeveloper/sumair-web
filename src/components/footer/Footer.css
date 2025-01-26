@@ -4,6 +4,8 @@ footer {
     padding: 1.5rem 0; /* Padding for spacing */
     text-align: center; /* Center align text */
     background-color: var(--background-color);
+    border-top: 1px solid var(--border-color);
+    box-shadow: 1px 1px 10px 2px #888888;
   }
   
   footer p {
@@ -38,6 +40,8 @@ footer {
 .icon :hover {
     color: #2563eb; /* Darker blue on hover */
   }
+
+
 
   @media screen and (max-width: 600px ){
     footer{

@@ -10,10 +10,22 @@ function Footer() {
       <p>© 2025 Sumair Portfolio Web. All rights reserved.</p>
       <div className="social-links">
         <div className="logos">
-        <FaFacebook  className="icon"/>
-        <BsWhatsapp   className="icon"/>
-        <BsInstagram   className="icon"/>
-        <BsGlobe   className="icon"/>
+        <FaFacebook 
+  className="icon" 
+  onClick={() => window.open('https://www.facebook.com/profile.php?id=61563771864112', '_blank')} 
+/>
+<BsWhatsapp 
+  className="icon" 
+  onClick={() => window.open('https://web.whatsapp.com/', '_blank')} 
+/>
+<BsInstagram 
+  className="icon" 
+  onClick={() => window.open('https://www.instagram.com/barisyildrim2/', '_blank')} 
+/>
+<BsGlobe 
+  className="icon" 
+  onClick={() => window.open('https://sumair-web.vercel.app/', '_blank')} 
+/>
         </div>
 
       
