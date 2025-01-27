@@ -8,7 +8,6 @@ import Services from './components/services/Services'
 import MyWork from './components/my-work/My-work'
 import Form from './components/form/Form'
 import Footer from './components/footer/Footer'
-import MiniProjects from './components/mini-projects/Mini-projects'
 const App = () => {
   return (
     <div>
@@ -20,7 +19,7 @@ const App = () => {
         </div>
         <Services />
         <MyWork />
-        <MiniProjects />
+        
         <Form />
       </div>
       <Footer />
